@@ -17,7 +17,7 @@ class PriorityQueue:
       item = self.heap.pop()
       return item
     else:
-      return exit()
+      return None
 
   def _sift_up(self, index):
     while index > 0:
