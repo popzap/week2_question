@@ -14,8 +14,10 @@ on:
         description: "Test python build"
         required: false
         type: string
+        
 permissions:
   contents: read
+  
 jobs:
   build:
     runs-on: ubuntu-latest
