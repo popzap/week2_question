@@ -17,8 +17,7 @@ class PriorityQueue:
       item = self.heap.pop()
       return item
     else:
-      return  print("Stack underflow")
-        exit()
+      return exit()
 
   def _sift_up(self, index):
     while index > 0:
